@@ -1,0 +1,59 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+} 
+
+/* Estilos gerais */ 
+body { 
+    font-family: Arial, sans-serif; 
+} 
+
+/* Estilos do cabeçalho */ 
+.header { 
+    background-color: #FF8C00; /* Laranja escuro */ 
+    text-align: center; 
+    padding: 20px; 
+}
+
+.header h1, .header h2 { 
+    color: white; 
+} 
+
+
+/* Estilos do corpo do site */ 
+.main { 
+    background-color: #FFA500; /* laranja claro */ 
+    padding: 20px; 
+} 
+
+.gifs { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+
+.gif { 
+    margin: 10px; 
+}
+
+.gif img { 
+    max-width: 100px;
+ }
+ 
+ .main p { 
+text-align: center; 
+}
+
+
+/* Estilos do Rodapé */ 
+.footer { 
+    background-color: #FFD700; /* Laranja claro */ 
+    padding: 10px; 
+    text-align: center; 
+}
+
+blockquote { 
+    font-style: italic; 
+}
